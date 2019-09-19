@@ -16,6 +16,7 @@ module Blorgh
     # GET /articles/new
     def new
       @article = Article.new
+      @article.author ||= current_user
     end
 
     # GET /articles/1/edit
@@ -56,7 +57,7 @@ module Blorgh
 
       # Only allow a trusted parameter "white list" through.
       def article_params
-        params.require(:article).permit(:title, :text)
+        params.require(:article).permit(:title, :text, :author_id)
       end
   end
 end
