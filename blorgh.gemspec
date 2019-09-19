@@ -7,11 +7,11 @@ require "blorgh/version"
 Gem::Specification.new do |spec|
   spec.name        = "blorgh"
   spec.version     = Blorgh::VERSION
-  spec.authors     = ["Ignacio Aliende García"]
-  spec.email       = ["ialiendeg@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of Blorgh."
-  spec.description = "TODO: Description of Blorgh."
+  spec.authors     = ["Usabi"]
+  spec.email       = ["ialiendeg@usabi.es"]
+  spec.homepage    = "https://github.com/Usabi/blorgh_engine_example"
+  spec.summary     = "Summary of Blorgh."
+  spec.description = "Description of Blorgh."
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
